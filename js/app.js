@@ -67,7 +67,7 @@ Player.prototype.render = function() {
     onCollision();
 //! NOTE TO SELF , HAVE TO REDO SQUARES TO MAKE SURE IT PROPERLY LINES UP 
     function startNewStage (){
-        if (player.y = 0 || player.x = 0){
+        if (player.y == 0 || player.x == 0) {
             player.y = 420;
             player.x = 0;
             console.log("finished a level !")
@@ -134,4 +134,5 @@ document.addEventListener('keyup', function(e) {
 
     player.handleInput(allowedKeys[e.keyCode]);
 });
+
 

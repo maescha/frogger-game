@@ -1,3 +1,7 @@
 body {
     text-align: center;
 }
+
+body p {
+    font: 30px Arial, sans-serif;
+}
